@@ -39,3 +39,6 @@ $ java -jar target/scala-2.11/FyberTask-2-assembly-1.0.jar input.txt
 ```
 
 >If a task has multiple input links, and several events arrive at the same time they should be concatenated into one event before feeding the task. Concatenating consist of appending the strings, in the order in which links were created.
+
+The statement is not clear to me. If it is elaborated a little bit I can write logic for that.
+In current code I have not covered this scenario.
